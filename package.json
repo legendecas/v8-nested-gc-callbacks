@@ -1,0 +1,14 @@
+{
+  "name": "v8-nested-gc-callbacks",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node --expose-gc test.js",
+    "build": "node-gyp rebuild"
+  },
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "nan": "^2.17.0",
+    "node-gyp": "^9.3.0"
+  }
+}
